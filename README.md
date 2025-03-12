@@ -5,6 +5,7 @@ This project demonstrates the implementation of **Clean Architecture** principle
 ---
 
 ## File Structure
+```
 clean_architecture/
 ├── src/
 │ ├── main/
@@ -30,7 +31,7 @@ clean_architecture/
 ├── docker-compose.yml # Docker Compose Configuration (App + PostgreSQL)
 ├── pom.xml 
 └── README.md 
-
+```
 
 
 ---
@@ -50,8 +51,8 @@ clean_architecture/
    mvn clean install
 Run with Docker:
 
-```bash
-docker-compose up
+   ```bash
+   docker-compose up
 
 Technologies Used
 Spring Boot: Backend framework.
