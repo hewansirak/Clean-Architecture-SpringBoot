@@ -43,6 +43,11 @@ clean_architecture/
 - **REST API**: Exposes endpoints for user management.
 
 ---
+**Technologies Used**
+Spring Boot: Backend framework.
+PostgreSQL: Relational database.
+Docker: Containerization for consistent environments.
+Maven: Build and dependency management.
 
 ## Getting Started
 
@@ -50,15 +55,5 @@ clean_architecture/
    ```bash
    mvn clean install
 Run with Docker:
-
    ```bash
    docker-compose up
-
-**Technologies Used**
-Spring Boot: Backend framework.
-
-PostgreSQL: Relational database.
-
-Docker: Containerization for consistent environments.
-
-Maven: Build and dependency management.
