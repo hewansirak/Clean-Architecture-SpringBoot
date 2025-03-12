@@ -11,24 +11,24 @@ clean_architecture/
 │ ├── main/
 │ │ ├── java/
 │ │ │ ├── com.example.clean_architecture.adapters/
-│ │ │ │ ├── controller/ # REST Controllers 
+│ │ │ │ ├── controller/      # REST Controllers 
 │ │ │ │ ├── repository/ 
 │ │ │ ├── com.example.clean_architecture.application/
-│ │ │ │ └── CleanArchitectureApplication.java # Main Application Class
+│ │ │ │ └── CleanArchitectureApplication.java          # Main Application Class
 │ │ │ ├── com.example.clean_architecture.core/
-│ │ │ │ ├── domain/ # Domain Models and Interfaces
-│ │ │ │ ├── usecase/ # Business Logic 
+│ │ │ │ ├── domain/              # Domain Models and Interfaces
+│ │ │ │ ├── usecase/             # Business Logic 
 │ │ │ ├── com.example.clean_architecture.infrastructure/
 │ │ │ │ ├── configuration/ 
 │ │ │ │ ├── persistence/ 
 │ │ ├── resources/
-│ │ │ ├── application.properties # Application Configuration
-│ │ │ ├── data.sql # Initial Data Script 
+│ │ │ ├── application.properties      # Application Configuration
+│ │ │ ├── data.sql                    # Initial Data Script 
 │ │ │ ├── static/ 
 │ │ │ └── templates/ 
-│ ├── test/ # Unit and Integration Tests
-├── Dockerfile # Docker Configuration for the Application
-├── docker-compose.yml # Docker Compose Configuration (App + PostgreSQL)
+│ ├── test/                         
+├── Dockerfile 
+├── docker-compose.yml 
 ├── pom.xml 
 └── README.md 
 ```
@@ -46,7 +46,7 @@ clean_architecture/
 
 ## Getting Started
 
-1. **Build the Application**:
+**Build the Application**:
    ```bash
    mvn clean install
 Run with Docker:
@@ -54,7 +54,7 @@ Run with Docker:
    ```bash
    docker-compose up
 
-Technologies Used
+**Technologies Used**
 Spring Boot: Backend framework.
 
 PostgreSQL: Relational database.
